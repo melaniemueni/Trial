@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(images/image.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: rgba(0, 0, 0,0.7);
+    border-radius: 5px;
+    text-align: center;
+    padding: 40px 10px;
+    
+}
+.header img{
+    width: 150px;
+    height: 150px;
+    object-position: 0 -8px;
+    object-fit:cover ;
+    border-radius: 80px;
+   
+
+}
+.content span{
+    border: 2px solid rgb(0, 217, 255);
+    background-color: rgb(16, 192, 223);
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.content span:hover{
+    cursor: pointer;
+    background-color:rgb(235, 21, 182);
+    color: rgb(21, 231, 39);
+}
+
